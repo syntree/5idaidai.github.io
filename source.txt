@@ -1,0 +1,17 @@
+#SynTree开放源代码
+##开始工作
+###请先准备好必要的开发环境，该工具使用myeclipse8.5版本开发，亦可选用eclipse开源版本编译，请前往http://www.eclipse.org/downloads/ 下载合适版本。
+###安装git版本控制器，windows版本请前往http://code.google.com/p/msysgit/downloads/list 下载。
+##创建目录
+安装完成msysgit版本控制器后，请自行创建工作目录，假定为~/SynTree
+##拉取代码
+
+```
+$ cd ~/SynTree
+$ git clone git@bitbucket.org:utopiar/parser.git
+```
+##导入代码
+使用eclipse导入拉取的代码。
+
+##编译运行
+导入代码后，找到如函数入口（cn.edu.zzu.nlp.utopiar.editor.GraphEditor.java），设置运行参数-mx800m，编译运行。
